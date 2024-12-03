@@ -104,11 +104,23 @@ img {
 }
 
 header {
+  width: 100%;
+  position: fixed; 
+  top: 0;
+  z-index: 10;
+  background-color: #333; 
+  padding: 20px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*
+header {
   width:100%;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+  */
 
 header ul {
   list-style:none;
@@ -187,7 +199,7 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:100%;
   float:left;
   position:fixed;
   bottom:50px;
