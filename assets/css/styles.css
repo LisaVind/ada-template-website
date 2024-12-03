@@ -104,13 +104,13 @@ img {
 }
 
 header {
-  width: 90%;
+  width: 100%;
   /*position: fixed; */
   top: 0;
   /*z-index: 10;*/
   background-color: #333; 
   padding: 20px; 
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.01);
+  box-shadow: 0 1px 1px rgba(211, 211, 211, 0.5);
 }
 
 
