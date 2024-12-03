@@ -84,10 +84,23 @@ table {
   border-collapse:collapse;
 }
 
-th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+th {
+  text-align: center;
+  padding: 10px 20px;
+  border: none; /* Remove borders from the table header cells */
+  background-color: transparent; /* Optional: remove background */
+}
+
+th a:hover {
+  color: #069;
+}
+
+th a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  display: inline-block; /* Ensure the link is inline */
+  padding: 10px 20px;
 }
 
 dt {
@@ -238,6 +251,7 @@ footer {
   float:center;
   position:fixed;
   bottom:50px;
+  padding: 20px;
   font-size: 14px;
   background-color: #392722;
   -webkit-font-smoothing:subpixel-antialiased;
