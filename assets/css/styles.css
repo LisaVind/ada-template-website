@@ -191,6 +191,8 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
+  font-size: 14px;
+  background-color: #222;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
