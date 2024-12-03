@@ -232,35 +232,34 @@ footer {
 }
 
 @media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
-
-  header {
-    padding:0;
-  }
-
-  header ul, header p.view {
-    position:static;
-  }
-
-  pre, code {
-    word-wrap:normal;
-  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Adjust as needed (e.g., left, right, center) */
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4; /* Adjust background color */
 }
 
-@media print, screen and (max-width: 480px) {
-  body {
-    padding:15px;
-  }
+nav ul li {
+    margin: 0 10px;
+}
 
-  header ul {
-    width:99%;
-  }
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust text color */
+    padding: 10px 15px;
+    display: block;
+}
 
-  header li, header ul li + li + li {
-    width:33%;
-  }
+nav ul li a:hover {
+    background-color: #ddd; /* Adjust hover effect */
+    color: #000;
+}
+
+.downloads {
+    margin-top: 20px;
+}
 }
 
 @media print {
