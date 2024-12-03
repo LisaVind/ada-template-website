@@ -1,6 +1,6 @@
 
 ## Introduction
-Wikipedia contains vast information about the world an the articles on Wikipedia are written in a collaborative manner. Authors can add links to other pages creating hubs. Hubs are articles on Wikipedia that are linked to many other articles in the Wikipedia network. This makes them access points to get from one piece of information to another. By using data over navigation paths in the Wikispeedia game, we explore how well users navigate hubs and what it says about our common knowledge.
+Wikipedia contains vast information about the world and the articles on Wikipedia are written in a collaborative manner. Authors can add links to other pages on wikipedia creating ways of navigating this network of information. Hubs are articles on Wikipedia that are linked to many other articles in the Wikipedia network. This makes them access points to get from one piece of information to another. By using data over navigation paths in the Wikispeedia game, we explore how well users navigate hubs and what it says about our common knowledge.
 
 ---
 ## Hubs
