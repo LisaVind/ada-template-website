@@ -3,10 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adventure</title>
     <link rel="stylesheet" href="style.css" />
     <style>
-      /* Inline styles for demonstration */
       body {
         margin: 0;
         font-family: Arial, sans-serif;
@@ -22,10 +20,17 @@
         font-weight: bold;
       }
 
-      .main-content {
+      .section {
         background-color: #f9f9f9;
         padding: 20px;
-        min-height: 400px;
+        margin: 10px 0;
+        border-radius: 5px;
+      }
+
+      .section h2 {
+        font-size: 20px;
+        color: #007bff;
+        margin-bottom: 10px;
       }
 
       .footer {
@@ -35,37 +40,47 @@
         padding: 10px;
         font-size: 14px;
       }
-
-      .button {
-        display: inline-block;
-        margin-top: 20px;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: white;
-        border-radius: 5px;
-        text-decoration: none;
-        font-weight: bold;
-        transition: background-color 0.3s;
-      }
-
-      .button:hover {
-        background-color: #0056b3;
-      }
     </style>
   </head>
   <body>
     <!-- Header Section -->
     <div class="header">
-      Title
+      Adventure Website
     </div>
 
-    <!-- Main Content Section -->
-    <div class="main-content">
+    <!-- Introduction Section -->
+    <div class="section">
+      <h2>Introduction</h2>
       <p>
-        Welcome to Adventure! This is where the story begins. Insert your
-        exciting content here.
+        Wikipedia contains vast information about the world. In Wikipedia, there are hubs, 
+        articles linked to many other articles in Wikipedia. By using navigation paths in the 
+        Wikispeedia game, we explore how well users navigate hubs and what it says about 
+        our common knowledge.
       </p>
-      <a href="#explore" class="button">Explore More</a>
+    </div>
+
+    <!-- Main Hubs Section -->
+    <div class="section">
+      <h2>Main Hubs</h2>
+      <p>
+        What hubs are on Wikipedia? First, some initial analysis to identify 
+        the hubs in the Wikipedia network.
+      </p>
+
+      <!-- Subsection -->
+      <h3>Identifying Hubs in Wikispeedia</h3>
+      <p>
+        Key hubs are defined as articles with a high number of incoming and outgoing links. 
+        These hubs play an essential role in connecting various topics within the Wikipedia 
+        ecosystem.
+      </p>
+
+      <!-- Subsection -->
+      <h3>Navigation Efficiency</h3>
+      <p>
+        Users often rely on hubs to navigate between articles. Measuring how efficiently 
+        these hubs are used can provide insights into user behavior and knowledge patterns.
+      </p>
     </div>
 
     <!-- Footer Section -->
