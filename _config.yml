@@ -3,7 +3,7 @@ title: ADA Template Website
 description: A template website for ADA
 show_downloads: True
 navigation:
-  - title: Home
-    url: https://Adaventure.github.io
+  - title: Adaventure
+    url: introduction
   - title: Example
     url: example
