@@ -79,16 +79,33 @@ pre {
   overflow-x: auto;
 }
 
+.links-container {
+  display: flex;
+  gap: 20px; /* Adjust the spacing between the links */
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+}
+
 table {
   width:100%;
   border-collapse:collapse;
 }
 
 th {
-  text-align: center;
+  text-align: left;
   padding: 10px 20px;
-  border: none; /* Remove borders from the table header cells */
-  background-color: transparent; /* Optional: remove background */
+  border: none; 
+  background-color: transparent; 
 }
 
 th a:hover {
@@ -253,7 +270,7 @@ footer {
   bottom:50px;
   padding: 20px;
   font-size: 14px;
-  background-color: #392722;
+  background-color: #bab598;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 

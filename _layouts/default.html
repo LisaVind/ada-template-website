@@ -12,16 +12,17 @@
   <body>
     <div class="wrapper">
       <fixed.header>
-        <table>
+        <div class="links-container">
           {% for nav in site.navigation %}
             {% if nav.url contains "://" %}
-              <tr><th><a href="{{ nav.url }}">{{ nav.title }}</a></th></tr>
+              <a class="nav-link" href="{{ nav.url }}">{{ nav.title }}</a>
             {% else %}
-              <tr><th><a href="{{ nav.url | relative_url }}">{{ nav.title }}</a></th></tr>
+              <a class="nav-link" href="{{ nav.url | relative_url }}">{{ nav.title }}</a>
             {% endif %}
           {% endfor %}
-        </table>
+        </div>
       </fixed.header>
+      
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
